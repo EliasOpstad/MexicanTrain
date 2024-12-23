@@ -6,6 +6,7 @@ import Link from "next/link";
 const Home: React.FC = () => {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-900">
+      <Countdown targetDate="2025-06-16T00:00:00" />
       {/* Hero Section */}
       <section className="bg-gray-50 text-gray-800 p-10 md:p-20">
         <div className="flex flex-col md:flex-row items-center md:justify-between">
@@ -33,8 +34,6 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-
-      <Countdown targetDate="2025-06-16T00:00:00" />
 
       {/* Nyhetsseksjon */}
       <section className="p-10 bg-gray-50">
