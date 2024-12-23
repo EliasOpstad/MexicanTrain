@@ -23,16 +23,17 @@ const NM2024: React.FC = () => {
         </h1>
 
         {/* Informasjonstekst */}
-        <p className="text-lg text-gray-700 mb-4">
+        <p className="text-lg text-gray-700 mb-4 text-left">
           Forberedelsene er i gang, og vi gleder oss til å ønske velkommen til
           årets største turnering i Mexican Train!
         </p>
-        <p className="text-lg text-gray-700 mb-4">
+        <p className="text-lg text-gray-700 mb-4 text-left">
           Turneringen finner sted på <strong>Spilloteket</strong> i Oslo, hvor
           96 plasser nå er fylt opp. Dette blir en spennende konkurranse med 5
-          intense runder mellom de beste spillerne i Norge.
+          intense runder. Vi gleder oss masse til å se hvem som stikker av med
+          seieren!
         </p>
-        <p className="text-lg text-gray-700 mb-8">
+        <p className="text-lg text-gray-700 mb-8 text-left">
           Vi ses den <strong>21. desember 2024</strong>! Ta med venner og
           familie for en dag fylt med strategi, spenning og moro.
         </p>
