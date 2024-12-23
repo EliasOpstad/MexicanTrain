@@ -93,7 +93,6 @@ export default function Turneringer() {
             width="100%"
             height="300"
             className="rounded-lg shadow-lg"
-            allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
