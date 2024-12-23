@@ -84,6 +84,15 @@ export default function Turneringer() {
               gikk Hanna ut med den laveste poengsummen i finalen og tok
               førsteplassen.
             </p>
+            {/* Les mer-knapp */}
+            <div className="mt-6">
+              <Link
+                href="/nyheter/nm2024vinner"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700"
+              >
+                Les mer...
+              </Link>
+            </div>
           </div>
         </div>
       </section>
