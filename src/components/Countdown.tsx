@@ -46,7 +46,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   return (
     <div className="flex flex-col items-center bg-gray-900 text-white p-6 rounded-lg shadow-md">
       <h1 className="text-2xl font-bold">
-        Registrering for NM i Mexican train starter om:
+        Påmeldingen til NM 2025 i Mexican Train åpner om:
       </h1>
       <div className="flex space-x-6 mt-4 text-lg font-mono">
         <div className="flex flex-col items-center">
