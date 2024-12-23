@@ -24,7 +24,8 @@ const Home: React.FC = () => {
             <p className="text-xl mb-6">
               Oppdag gleden med Mexican Train! Vi har arrangert
               Norgesmesterskapet siden 2023. Neste NM er i 2025. Registreringen
-              åpner 1. oktober 2025!
+              åpner 1. oktober 2025! NM 2025 blir holdt på Spilloteket i Oslo
+              ila november. (Dato kommer)
             </p>
             <Link href="/regler">
               <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition">
