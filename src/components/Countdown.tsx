@@ -50,25 +50,25 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
       </h1>
       <div className="flex space-x-8 mt-6 text-lg font-mono">
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-semibold text-yellow-400">
+          <span className="text-5xl font-semibold text-yellow-80">
             {timeLeft.days}
           </span>
           <span className="mt-1">Dager</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-semibold text-yellow-400">
+          <span className="text-5xl font-semibold text-yellow-80">
             {timeLeft.hours}
           </span>
           <span className="mt-1">Timer</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-semibold text-yellow-400">
+          <span className="text-5xl font-semibold text-yellow-80">
             {timeLeft.minutes}
           </span>
           <span className="mt-1">Minutter</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-5xl font-semibold text-yellow-400">
+          <span className="text-5xl font-semibold text-yellow-80">
             {timeLeft.seconds}
           </span>
           <span className="mt-1">Sekunder</span>
