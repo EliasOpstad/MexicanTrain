@@ -97,7 +97,7 @@ const Home: React.FC = () => {
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                1. desember 2024
+                29. oktober 2024
               </h3>
               <p className="text-lg text-gray-700">
                 Nå nærmer NM 2024 i Mexican Train seg! Har du forberedt deg?

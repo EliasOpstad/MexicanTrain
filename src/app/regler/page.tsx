@@ -79,16 +79,23 @@ export default function TournamentRules() {
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4">Poengberegning</h2>
           <p className="text-gray-700">
-            Når en spiller går ut, legger de andre spillerne ut sine brikker med
-            forsiden opp for å telle poeng:
+            Poeng tildeles basert på spillernes prestasjoner ved bordet:
           </p>
           <ul className="list-disc list-inside text-gray-700 mt-2">
-            <li>Dobbel blank teller 50 poeng.</li>
-            <li>Alle andre brikker teller antall prikker på dem.</li>
+            <li>1. plass: 7 poeng</li>
+            <li>2. plass: 6 poeng</li>
+            <li>3. plass: 5 poeng</li>
+            <li>4. plass: 4 poeng</li>
+            <li>5. plass: 3 poeng</li>
+            <li>6. plass: 2 poeng</li>
+            <li>7. plass: 1 poeng</li>
+            <li>8. plass: 0 poeng</li>
           </ul>
           <p className="text-gray-700 mt-4">
-            Spilleren med lavest totalsum etter 5 runder kåres til
-            turneringsmester.
+            Etter hver runde oppdateres en leaderboard basert på totale poeng og
+            sammenlagt lav poengsum. Spilleren med flest poeng etter 5 runder
+            kåres til turneringsmester. Ved lik poengsum brukes lavest
+            sammenlagt poengsum som tie-breaker.
           </p>
         </section>
 
