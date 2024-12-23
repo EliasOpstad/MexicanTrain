@@ -29,8 +29,8 @@ const NMVinner2024: React.FC = () => {
           Hanna Hovland sikret seieren etter fem intense runder mot 95 andre
           deltakere. Premien inkluderer en Mexican Train stasjonbrikke som kan
           anvendes i eget spill hjemme. I tillegg får vinneren tilsendt blomster
-          rundt juletider. Turneringen ble arrangert på Spilloteket i Oslo, og
-          vi gratulerer Hanna med førsteplassen!
+          rundt juletider. Turneringen ble arrangert på Spilloteket i Oslo, 24
+          november 2024. Gratulerer Hanna med førsteplassen!
         </p>
 
         {/* Tekst om premien */}
