@@ -44,26 +44,34 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="flex flex-col items-center bg-gray-900 text-white p-6 shadow-md">
-      <h1 className="text-2xl font-bold">
+    <div className="flex flex-col items-center bg-gray-800 text-gray-200 p-8 shadow-lg">
+      <h1 className="text-2xl font-bold text-gray-100">
         Påmeldingen til NM 2025 i Mexican Train åpner om:
       </h1>
-      <div className="flex space-x-6 mt-4 text-lg font-mono">
+      <div className="flex space-x-8 mt-6 text-lg font-mono">
         <div className="flex flex-col items-center">
-          <span className="text-4xl font-semibold">{timeLeft.days}</span>
-          <span>Dager</span>
+          <span className="text-5xl font-semibold text-yellow-400">
+            {timeLeft.days}
+          </span>
+          <span className="mt-1">Dager</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-4xl font-semibold">{timeLeft.hours}</span>
-          <span>Timer</span>
+          <span className="text-5xl font-semibold text-yellow-400">
+            {timeLeft.hours}
+          </span>
+          <span className="mt-1">Timer</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-4xl font-semibold">{timeLeft.minutes}</span>
-          <span>Minutter</span>
+          <span className="text-5xl font-semibold text-yellow-400">
+            {timeLeft.minutes}
+          </span>
+          <span className="mt-1">Minutter</span>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-4xl font-semibold">{timeLeft.seconds}</span>
-          <span>Sekunder</span>
+          <span className="text-5xl font-semibold text-yellow-400">
+            {timeLeft.seconds}
+          </span>
+          <span className="mt-1">Sekunder</span>
         </div>
       </div>
     </div>
