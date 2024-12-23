@@ -49,7 +49,7 @@ export default function TournamentRules() {
             <li>
               Hver runde starter med dobbel 12 og spilles ned til dobbel 7.
             </li>
-            <li>Hver spiller trekker 12 brikker ved starten av hver runde.</li>
+            <li>Hver spiller trekker 11 brikker ved starten av hver runde.</li>
             <li>Spilleren med den nødvendige dobbelbrikken starter spillet.</li>
           </ul>
         </section>
