@@ -57,10 +57,11 @@ const Home: React.FC = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 1. desember 2024
               </h3>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 mb-4">
                 Vi ønsker alle våre spillere og entusiaster en riktig god jul og
                 et godt nytt år!
               </p>
+              <p className="text-blue-600 font-semibold">Les mer...</p>
             </div>
           </Link>
 
@@ -79,9 +80,10 @@ const Home: React.FC = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 25. november 2024
               </h3>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 mb-4">
                 Vi gratulerer Hanna Hovland som vinner av NM 2024!
               </p>
+              <p className="text-blue-600 font-semibold">Les mer...</p>
             </div>
           </Link>
 
@@ -100,9 +102,10 @@ const Home: React.FC = () => {
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 29. oktober 2024
               </h3>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 mb-4">
                 Nå nærmer NM 2024 i Mexican Train seg! Har du forberedt deg?
               </p>
+              <p className="text-blue-600 font-semibold">Les mer...</p>
             </div>
           </Link>
         </div>
