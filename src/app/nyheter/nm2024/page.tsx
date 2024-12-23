@@ -34,8 +34,8 @@ const NM2024: React.FC = () => {
           seieren!
         </p>
         <p className="text-lg text-gray-700 mb-8 text-left">
-          Vi ses <strong> november 2024</strong>! Ta med venner og familie for
-          en dag fylt med strategi, spenning og moro.
+          Vi ses <strong> 24.november 2024</strong>! Ta med venner og familie
+          for en dag fylt med strategi, spenning og moro.
         </p>
 
         {/* Navigasjonsknapp */}
