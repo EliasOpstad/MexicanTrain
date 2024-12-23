@@ -10,7 +10,7 @@ export default function Turneringer() {
         <h2 className="text-2xl font-semibold mb-4">Turneringsoppsett</h2>
         <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
           <li>Maksimalt 96 deltakere fordelt på 12 bord.</li>
-          <li>5 runder med sveitserformat for rettferdig poengfordeling.</li>
+          <li>5 runder med "swiss-format" for rettferdig poengfordeling.</li>
           <li>Hver runde varer i 45 minutter.</li>
           <li>Finale med de 8 beste spillerne fra hovedrundene.</li>
           <li>Spillene starter med dobbel 12 og spilles ned til dobbel 7.</li>
