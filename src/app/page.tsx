@@ -76,7 +76,7 @@ const Home: React.FC = () => {
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                21. desember 2024
+                25. november 2024
               </h3>
               <p className="text-lg text-gray-700">
                 Vi gratulerer Hanna Hovland som vinner av NM 2024!
