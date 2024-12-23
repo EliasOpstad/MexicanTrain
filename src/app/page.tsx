@@ -28,7 +28,7 @@ const Home: React.FC = () => {
               ila november. (Dato kommer)
             </p>
             <Link href="/regler">
-              <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition">
+              <button className="bg-gray-800 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition">
                 Les mer om reglene
               </button>
             </Link>
