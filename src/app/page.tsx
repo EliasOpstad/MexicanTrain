@@ -6,7 +6,7 @@ import Link from "next/link";
 const Home: React.FC = () => {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-900">
-      <Countdown targetDate="2025-06-16T00:00:00" />
+      <Countdown targetDate="2025-10-1T00:00:00" />
       {/* Hero Section */}
       <section className="bg-gray-50 text-gray-800 p-10 md:p-20">
         <div className="flex flex-col md:flex-row items-center md:justify-between">
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
             <p className="text-xl mb-6">
               Oppdag gleden med Mexican Train! Vi har arrangert
               Norgesmesterskapet siden 2023. Neste NM er i 2025. Registreringen
-              åpner 16. juni 2025!
+              åpner 1. oktober 2025!
             </p>
             <Link href="/regler">
               <button className="bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition">
